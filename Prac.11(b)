@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+  
+
+  <h1>Student Feedback Form</h1>
+
+  <fieldset> 
+
+    <legend> Student Info(Optinal)</legend> 
+
+      <label for="">Student Name:</label> <input type="text"> <br>
+
+      <br>
+
+      <label for="">Enrollment No:</label>
+
+    <input type="text">
+
+  </fieldset><br>
+
+ 
+
+  <fieldset> 
+
+    <legend>Faculty and Subject Info</legend> 
+
+      <label for="">Faculty Name:</label> 
+
+       <select name="" id="">
+
+        <option value="">KKM</option>
+
+        <option value="">RDV</option>
+
+        <option value="">AMG</option>
+
+        <option value="">DVS</option>
+
+        <option value="">SKS</option>
+
+        <option value="">KHJ</option>
+
+        <option value="">YDP</option>
+
+        <option value="">SMP</option>
+
+        <option value="">VKP</option>
+
+       </select> <br>
+
+      <br>
+
+      <label for=""> Subject Selection:</label>
+
+       <select name="" id="">
+
+        <option value="">BOOP</option>
+
+        <option value="">BDE</option>
+
+        <option value="">IC</option>
+
+        <option value="">MATHS</option>
+
+        <option value="">SWPD</option>
+
+        <option value="">PHYSICS</option>
+
+        <option value="">ECWP</option>
+
+       </select>
+
+      <br>
+
+    </fieldset>
+
+     <br>
+
+     <fieldset>
+
+      <legend>Feedback:</legend>
+
+      <label>(1)Satisfaction level according to the  syllabus covered by teacher:</label><br>
+
+      <input type="radio" name="" id="">5
+
+      <input type="radio" name="" id="">4
+
+      <input type="radio" name="" id="">3
+
+      <input type="radio" name="" id="">2
+
+      <input type="radio" name="" id="">1 <br>
+
+      <br>
+
+      <label for="">(2)Satisfaction level according to the topic covered beyond syllabus by the teacher:</label><br>
+
+      <input type="radio" name="" id="">5
+
+      <input type="radio" name="" id="">4
+
+      <input type="radio" name="" id="">3
+
+      <input type="radio" name="" id="">2
+
+      <input type="radio" name="" id="">1 
+
+      <br>
+
+    </fieldset>    
+
+      <br>
+
+
+
+   <button>Submit Feedback</button>
+
+</body>
+
+</html>
+
+/*CSS*/
+
+body{
+background color;
+font-style:arial;
+}
+h1{
+color:#FFFFFF;
+margin:50 px;
+}
+label {
+color:white;
+}
+button {
+color:red;
+}
